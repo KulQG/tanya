@@ -1,0 +1,95 @@
+/*div, section, img, p, h1, h2, h3 {
+    border: 1px solid red;
+}*/
+
+@import url(./fonts.css);
+
+body {
+    background: black;
+}
+
+.page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", Arial, sans-serif ;
+    color: white;
+}
+
+.header {
+    margin-top: 30px;
+    width: 80%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid blue;
+}
+
+.header__text {
+    margin: 0;
+    font-weight: 400;
+}
+
+
+.header__heart {
+    margin: 0;
+    width: 35px;
+    height: 35px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.title__text {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+
+.grid {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.photo-grid {
+    width: 100%;
+}
+
+.text {
+    padding-bottom: 37px;
+    border-bottom: 1px solid blue;
+}
+
+.text__title {
+    margin: 35px 0 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text__subtitle {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.text__span {
+    text-decoration: line-through;
+}
+
+.footer {
+    margin: 48px 0 20px;
+    width: 80%;
+}
+
+.footer__text {
+    margin: 0;
+    opacity: .8;
+    font-size: 20px;
+}
