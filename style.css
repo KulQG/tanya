@@ -38,7 +38,7 @@ body {
     height: 35px;
 }
 
-.maint {
+.main {
     display: flex;
     flex-direction: column;
     width: 80%;
